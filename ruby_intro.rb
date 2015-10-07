@@ -58,6 +58,8 @@ def sum_to_n? arr, n
   end
 end
 
+
+
 # Part 2
 
 def hello(name)
@@ -78,6 +80,9 @@ def binary_multiple_of_4? s
     return (/\A[01]*0{2}\Z/ =~ s) != nil
   end
 end
+
+
+
 
 # Part 3
 
