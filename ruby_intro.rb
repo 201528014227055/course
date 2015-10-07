@@ -39,7 +39,6 @@ def sum_to_n? arr, n
       arr.each{|x|
         flag=n-x
         arr.each{|y|
-          # 寻找 配对数flag，并且两个求和的数不能相同
           if flag==y&&x!=y
             symb=1
           end
